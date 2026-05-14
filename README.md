@@ -1,35 +1,29 @@
-# womens-health-portal
+# WithHer 🌸
+> "You're not alone here — navigating Australian health, together."
 
-This template should help get you started developing with Vue 3 in Vite.
+A warm, plain-language health platform helping young migrant 
+women in Australia understand and navigate the healthcare system.
 
-## Recommended IDE Setup
+## ✨ Features
+- 🗺️ Find Care — search providers by bulk billing, language, telehealth
+- 📚 Health Guides — plain language explainers (no jargon)
+- 🇦🇺 New to Australia? — step-by-step Medicare & OSHC guide
+- 📅 Book appointments with email confirmation
+- 💛 My Health Hub — manage your preferences
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## 🛠️ Tech Stack
+- Vue 3 + Vite
+- Tailwind CSS
+- Firebase (Firestore, Auth, Cloud Functions)
+- SendGrid (email confirmations)
+- Deployed on Cloudflare Pages
 
-## Customize configuration
+## 🎯 Why WithHer?
+Over 70% of migrant women in Australia report difficulty 
+accessing healthcare (SBS News, 2022). WithHer was built to 
+bridge that gap — starting with the basics nobody explains.
 
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
+## 🚀 Getting Started
+cd frontend
 npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-npm run lint
-```
